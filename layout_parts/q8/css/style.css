@@ -8,23 +8,19 @@
   height: 333px;
   margin: 0 auto;
   cursor: pointer;
-  
+  overflow: hidden;
 }
 
 
-.car {
+.photo {
   transition: all 0.5s;
   
 }
 
-.car:hover {
-  transform: scale(1.5,1.5);
-  
-}
 
+.photo:hover .text_box {
+  bottom: 0;
 
-.car:hover .q8_text {
-  color: red;
 }
 
 .text_box {
@@ -47,7 +43,7 @@
   color: white;
   padding: 20px;
   box-sizing: border-box;
-
+  word-break: break-all;
 }
 
 
