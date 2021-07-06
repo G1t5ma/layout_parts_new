@@ -14,26 +14,24 @@
 }
 
 
-.ballon::before {
+.ballon::before, .ballon::after {
   position: absolute;
   content: '';
   border-top: 20px solid #222;
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
-  bottom: -16.5%;
   left: 5.5%;
 }
 
 
+.ballon::before {
+  bottom: -16.5%;
+}
+
+
 .ballon::after {
-  position: absolute;
-  content: '';
-  border-top: 20px solid #222;
-  border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
   border-top-color: white;
   bottom: -12%;
-  left:5.5%;
 }
 
 /* 回答はここに書いてね */
